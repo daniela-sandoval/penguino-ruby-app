@@ -17,3 +17,5 @@ penguin1 = Penguin.create(name: "Hulk Hogan", title: "lord", temp: "evil", alive
 
 record_daniela = Record.create(scientist_id: scientist1.id, colony_id: colony1.id, location: "backyard", project_name: "Daniela' Birds")
 record_joe = Record.create(scientist_id: scientist2.id, colony_id: colony2.id, location: "refridgerator", project_name: "Science Experiments")
+
+puts 'good seeding! 🌱'
