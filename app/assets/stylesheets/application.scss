@@ -184,12 +184,14 @@ button:hover {
   background-color: rgba(160,160,210,0.6);
 }
 
+// .background {
+//   padding: 0;
+//   margin: 0;
+// }
+
 .background {
   padding: 0;
   margin: 0;
-}
-
-.background::after {
   content: "";
   background: url("bg1.png");
   opacity: 0.3;
