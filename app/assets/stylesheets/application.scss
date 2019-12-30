@@ -191,7 +191,8 @@ button:hover {
 
 .background::after {
   content: "";
-  background: url("bg3.jpeg");
+  // background: url("/assets/bg3.jpeg");
+  background: url(asset_path('bg1.jpeg'));
   opacity: 0.3;
   top: 0;
   left: 0;
