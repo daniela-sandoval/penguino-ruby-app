@@ -53,10 +53,14 @@ h4 {
   font-size: 50px;
 }
 
-h3 {
+.instructions {
   font-family: monospace;
   font-size: 20px;
   color: #9999FF;
+}
+h3 {
+  text-decoration: underline;
+  font-family: monospace;
 }
 
 h5 {
