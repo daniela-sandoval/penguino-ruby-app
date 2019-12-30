@@ -1,6 +1,7 @@
 class ScientistsController < ApplicationController
   skip_before_action :find_scientist, only: [:new, :create]
 
+
   def new
     @scientist = Scientist.new
   end
